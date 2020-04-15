@@ -15,7 +15,7 @@ export default class Calendar extends React.Component {
 
   async componentDidMount() {
       this.fetchEvents();
-      setInterval(this.fetchEvents, 1000*10);
+      setInterval(this.fetchEvents.bind(this), 1000*20);
   }
 
   async fetchEvents() {

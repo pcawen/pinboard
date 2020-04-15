@@ -13,7 +13,7 @@ export default class Pinboard extends React.Component {
 
   async componentDidMount() {
     this.fetchMessages()
-    // setInterval(this.fetchMessages, 1000*5);
+    setInterval(this.fetchMessages.bind(this), 1000*15);
   }
 
   async fetchMessages() {
