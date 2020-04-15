@@ -5,9 +5,95 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  padding-top: 3.5rem;
+  background-color: #de3f1b45;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-nav {
+  background-color: #de421b;
 }
+
+.pinboard {
+  /* display: flex;
+  flex-wrap: wrap;
+  margin-top: -16px; */
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.publication {
+  /* max-width: 41rem;
+  margin: 10px; */
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.text-red {
+  color: #de421b;
+}
+
+.shadow-strong {
+  box-shadow: 0 0px 18px rgba(0, 0, 0, 0.5);
+}
+
+.main-container {
+  padding-top: .6rem;
+  background-color: #fff0f0;
+  min-height: 100vh;
+}
+
+.bg-edv-light {
+  background-color: #ffd2d2;
+}
+
+.card-bg {
+  background-color: white;
+}
+
+.calendar-container {
+  min-width: 22rem;
+  background-color: #80808026;
+  border-radius: 5px;
+}
+
+.publication .mj-column-px-600 {
+  width: 100% !important;
+}
+
+/* ---Bold color backgrounnd--- */
+/* Dark edv theme */
+.card-bg {
+  background-color: #ffd2d2;
+}
+
+.main-container {
+  background-color: #de421b;
+}
+
+.calendar-container {
+  background-color: #e25f3e;
+}
+
+
+/* ---Media queries--- */
+/* @media only screen and (min-width: 1024px) {
+  .pinboard {
+    column-count: 3;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .pinboard {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .pinboard {
+    column-count: 1;
+  }
+} */
+
