@@ -2,6 +2,14 @@
   "name": "pinboard",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcawen/pinboard"
+  },
+  "author": {
+    "name": "Pablo Cawen",
+    "url": "https://github.com/pcawen"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
